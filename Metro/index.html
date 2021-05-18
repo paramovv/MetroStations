@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Detail page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel= "stylesheet" href="./assets/details.css">
+  <style>
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(0, 255, 98);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+  <div class="header">
+    <style>
+      .header{
+        background-image: url('images/2.png');
+        width:100%;
+        height:100%;
+
+      }
+    </style>
+
+     <div >
+    <h1 style= "color:whitesmoke">Moscow subway</h1>
+    <h2 style= "color:whitesmoke">A subway stations are so beautiful, you should visit even if you don't use the train.</h2>
+  </div> 
+</div> 
+
+  <div class="navbar">
+    <a href="./detail.html">Details page</a>
+    <a href = "./about.html">Go to about</a>
+    <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="./detail.html">Details page</a>
+      <a href="./about.html">About page</a>
+     </div>
+  </div> 
+</div> 
+
+<div class="row">
+  <div class="side">
+    <h2>Red Square</h2>
+    <video width="350" controls>
+      <source src="images/videoMoscow.mp4" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+
+
+    <p>Please enter e-mail.E-mail must be in the
+following order:characters@characters.domain </p>
+  
+  <form action="/action_page.php">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+    <input type="submit" value="Enter">
+  </form>
+</div>
+
+  <div class="main">
+  
+    <h2 style= "color:blue"> Facts about Lines of Moscow Metro </h2>
+    <table style="width:100%">
+      <tr>
+        <th style="font-family:cursive"> Line Name</th>
+        <th style="font-family:cursive">First opened</th> 
+        <th style="font-family:cursive">Length(km)</th>
+        <th style="font-family:cursive">Stations</th>
+      </tr>
+      <tr>
+        <td>Sokolnicheskaya</td>
+        <td>1935</td>
+        <td>44.5</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <td>Kursko-Rizhsky diameter</td>
+        <td>2019</td>
+        <td>80</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <td>Moscow Central Circle</td>
+        <td>2016</td>
+        <td>54</td>
+        <td>31</td>
+      </tr>
+    </table>
+    
+    </body>
+    </html>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Powered by Veronika V. Paramonova</p>
+</div>
+</body>
+</html>
+
