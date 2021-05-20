@@ -3,19 +3,25 @@
     padding: 6px; /* some padding */
     text-align: center; /* center the text */
     color: white; /* white text color */
+    background-image: url(../images/2.png);
+     width:100%;
+     height:100%;
   }
   
-  /* Increase the font size of the <h1> element */
+  /* the font size of the <h1> element */
   .header h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
+  .header h2 {
+      font-size: 30px;
+    }
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden;
     background-color: #333;
   }
   
-/* Style the navigation bar links */
+/* Style the navigation bar l */
 .navbar a {
     float: left;
     display: block;
@@ -29,7 +35,6 @@
     background-color: #ddd;
     color: black;
   }
- /* Ensure proper sizing */
 * {
     box-sizing: border-box;
   }
@@ -51,7 +56,8 @@
   ul.a {
     list-style-type: disc;
   }
-  /* Main column */
+
+    /* Main column */
 .main {
     -ms-flex: 70%;
     flex: 70%; /* Set the width of the main content */

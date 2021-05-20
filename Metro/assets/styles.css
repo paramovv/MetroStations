@@ -1,22 +1,26 @@
+
 /* Style of header */
 .header {
     padding: 20px; /* some padding */
     text-align: center; /* center the text */
     background: #1abc9c; /* green background */
     color: white; /* white text color */
+           background-image: url('images/2.png');
+            width:100%;
+            height:100%;
   }
-  
+
   /* Increase the font size of the <h1> element */
   .header h1 {
     font-size: 40px;
-   
+
   }
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden;
     background-color: #333;
   }
-  
+
 /* Style the navigation bar links */
 .navbar a {
     float: left;
@@ -33,21 +37,20 @@
   }
 
 
- /* Ensure proper sizing */
  *{
     box-sizing: border-box;
   }
 
      /* Column container */
    .row {
-    display: -ms-flexbox; 
+    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap; 
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 /* Sidebar/left column */
     .side {
-    -ms-flex: 30%; 
+    -ms-flex: 30%;
     flex: 30%;
     background-color: #f1f1f1;
     padding: 20px;
@@ -66,13 +69,19 @@
     font-size: 14px;
     line-height: 1.42857143;
   }
-  /* Fake image, just for this example */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
 
+.main p {
+  background-color: #000;
+  color: #fff;
+  font-family: "Lucida Console";
+  font-size: 12px;
+}
+
+.header {
+  color: #414141;
+  margin: 0px;
+  padding: 0px;
+}
 
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
@@ -80,7 +89,7 @@
       flex-direction: column;
     }
   }
-  
+
   /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
   @media screen and (max-width: 400px) {
     .navbar a {
@@ -92,5 +101,6 @@
     padding: 20px; /* Some padding */
     text-align: center; /* Center text*/
     background: #ddd; /* Grey background */
- 
+
   }
+

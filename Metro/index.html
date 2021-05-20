@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel= "stylesheet" href="./assets/details.css">
+  <script src ="./scripts/indexScript.js"></script>
   <style>
 .dropdown {
   float: left;
@@ -12,7 +14,7 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
@@ -58,35 +60,27 @@
     </style>
 </head>
 <body>
-  <div class="header">
-    <style>
-      .header{
-        background-image: url('images/2.png');
-        width:100%;
-        height:100%;
+<div class="header">
 
-      }
-    </style>
-
-     <div >
+  <div >
     <h1 style= "color:whitesmoke">Moscow subway</h1>
     <h2 style= "color:whitesmoke">A subway stations are so beautiful, you should visit even if you don't use the train.</h2>
-  </div> 
-</div> 
+  </div>
+</div>
 
-  <div class="navbar">
-    <a href="./detail.html">Details page</a>
-    <a href = "./about.html">Go to about</a>
-    <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+<div class="navbar">
+  <a href="./detail.html">Details page</a>
+  <a href = "./about.html">Go to about</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
       <a href="./detail.html">Details page</a>
       <a href="./about.html">About page</a>
-     </div>
-  </div> 
-</div> 
+    </div>
+  </div>
+</div>
 
 <div class="row">
   <div class="side">
@@ -98,22 +92,23 @@
 
 
     <p>Please enter e-mail.E-mail must be in the
-following order:characters@characters.domain </p>
-  
-  <form action="/action_page.php">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-    <input type="submit" value="Enter">
-  </form>
-</div>
+      following order:characters@characters.domain </p>
+
+    <form action="/action_page.php">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+      <input type="submit" value="Enter">
+    </form>
+  </div>
 
   <div class="main">
-  
+    <p id="clock"></p>
+
     <h2 style= "color:blue"> Facts about Lines of Moscow Metro </h2>
     <table style="width:100%">
       <tr>
         <th style="font-family:cursive"> Line Name</th>
-        <th style="font-family:cursive">First opened</th> 
+        <th style="font-family:cursive">First opened</th>
         <th style="font-family:cursive">Length(km)</th>
         <th style="font-family:cursive">Stations</th>
       </tr>
@@ -136,15 +131,17 @@ following order:characters@characters.domain </p>
         <td>31</td>
       </tr>
     </table>
-    
-    </body>
-    </html>
-  </div>
+
+  </div>>
+
 </div>
+
 
 <div class="footer">
   <p>Powered by Veronika V. Paramonova</p>
 </div>
 </body>
 </html>
+
+
 
